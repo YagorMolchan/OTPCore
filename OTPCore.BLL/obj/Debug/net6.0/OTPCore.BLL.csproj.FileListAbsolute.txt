@@ -1,0 +1,15 @@
+F:\OTPCore\OTPCore.BLL\bin\Debug\net6.0\OTPCore.BLL.deps.json
+F:\OTPCore\OTPCore.BLL\bin\Debug\net6.0\OTPCore.BLL.dll
+F:\OTPCore\OTPCore.BLL\bin\Debug\net6.0\OTPCore.BLL.pdb
+F:\OTPCore\OTPCore.BLL\bin\Debug\net6.0\OTPCore.DAL.dll
+F:\OTPCore\OTPCore.BLL\bin\Debug\net6.0\OTPCore.DAL.pdb
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.csproj.AssemblyReference.cache
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.AssemblyInfoInputs.cache
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.AssemblyInfo.cs
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.csproj.CoreCompileInputs.cache
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.csproj.CopyComplete
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.dll
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\refint\OTPCore.BLL.dll
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\OTPCore.BLL.pdb
+F:\OTPCore\OTPCore.BLL\obj\Debug\net6.0\ref\OTPCore.BLL.dll

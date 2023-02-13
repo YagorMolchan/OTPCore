@@ -1,0 +1,14 @@
+F:\OTPCore\OTPCore.DAL\bin\Debug\net6.0\OTPCore.DAL.deps.json
+F:\OTPCore\OTPCore.DAL\bin\Debug\net6.0\OTPCore.DAL.runtimeconfig.json
+F:\OTPCore\OTPCore.DAL\bin\Debug\net6.0\OTPCore.DAL.dll
+F:\OTPCore\OTPCore.DAL\bin\Debug\net6.0\OTPCore.DAL.pdb
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.csproj.AssemblyReference.cache
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.AssemblyInfoInputs.cache
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.AssemblyInfo.cs
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.csproj.CoreCompileInputs.cache
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.dll
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\refint\OTPCore.DAL.dll
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.pdb
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\OTPCore.DAL.genruntimeconfig.cache
+F:\OTPCore\OTPCore.DAL\obj\Debug\net6.0\ref\OTPCore.DAL.dll
