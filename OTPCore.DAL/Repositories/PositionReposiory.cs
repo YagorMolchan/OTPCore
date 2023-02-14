@@ -20,12 +20,12 @@ namespace OTPCore.DAL.Repositories
 
         public List<Position> GetAll()
         {
-            return _dbContext.Positions.Include(p => p.Employees).ToList();
+            return _dbContext.Positions.AsNoTracking().Include(p => p.Employees).ToList();
         }
 
         public Position Get(int id)
         {
-            return _dbContext.Positions.Include(p => p.Employees).FirstOrDefault(p => p.Id == id);
+            return _dbContext.Positions.AsNoTracking().Include(p => p.Employees).FirstOrDefault(p => p.Id == id);
         }
 
         public void Create(Position position)

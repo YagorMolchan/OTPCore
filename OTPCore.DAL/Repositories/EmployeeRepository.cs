@@ -21,12 +21,12 @@ namespace OTPCore.DAL.Repositories
 
         public List<Employee> GetAll()
         {
-            return _dbContext.Employees.Include(e => e.Positions).ToList();
+            return _dbContext.Employees.AsNoTracking().Include(e => e.Positions).ToList();
         }
 
         public Employee Get(int id)
         {
-            return _dbContext.Employees.Include(e => e.Positions).FirstOrDefault(p => p.Id == id);
+            return _dbContext.Employees.AsNoTracking().Include(e => e.Positions).FirstOrDefault(p => p.Id == id);
         }
 
         public void Create(Employee employee)
@@ -36,14 +36,9 @@ namespace OTPCore.DAL.Repositories
 
         public void Update(Employee employee)
         {
-            //_dbContext.Entry(employeeOld).State = EntityState.Detached;
-            //_dbContext.Attach(employee);
-            //_dbContext.Entry(employee).State = EntityState.Modified;
-            //_dbContext.Set<Employee>().Attach(employeeNew);
-            //_dbContext.Entry(employeeNew).State = EntityState.Modified;
             _dbContext.Employees.Update(employee);
         }
-
+               
         public void Delete(Employee employee)
         {
             _dbContext.Employees.Remove(employee);

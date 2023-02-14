@@ -67,10 +67,10 @@ namespace OTPCore.API.Controllers
                 return BadRequest("The value of Id must not be changed");
             }
 
-            var employee = _mapper.Map<Employee>(employeeDTO);                                               
-            _unitOfWork.Employees.Update(employee);
+            var employeeOld = _unitOfWork.Employees.Get(id);            
+            _unitOfWork.Employees.Update(employeeOld);
             _unitOfWork.Save();
-            return Ok(employee);
+            return Ok(employeeOld);
         }
 
         [HttpDelete("{id}")]

@@ -1,4 +1,5 @@
-﻿using OTPCore.DAL.EFCore;
+﻿using Microsoft.EntityFrameworkCore;
+using OTPCore.DAL.EFCore;
 using OTPCore.DAL.Interfaces;
 using OTPCore.DAL.Repositories;
 using System;
@@ -46,6 +47,14 @@ namespace OTPCore.DAL.Repositories
             }
         }
 
+        public OTPDbContext Context
+        {
+            get
+            {
+                return _dbContext;
+            }
+        }
+
         public void Save()
         {
             _dbContext.SaveChanges();
@@ -71,4 +80,6 @@ namespace OTPCore.DAL.Repositories
             GC.SuppressFinalize(this);
         }
     }
+
+    
 }
